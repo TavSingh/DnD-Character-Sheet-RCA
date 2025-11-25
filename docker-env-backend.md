@@ -19,6 +19,6 @@ Students were unable to connect the frontend to the backend and not connecting t
 Testing docker locally and through the VM. Having alternative steps to connect to the backend without docker, to narrow down steps for debugging.
 
 ## Corrective Actions:
-* **Updated Axious.js:**
+* **Updated Axios.js:**
     * **Updated Process.env:** Updated baseURL since it was using process.env instead of import.meta.env.
 * **Updated Dockerfile:** It was not correctly reading the values of the env files. Updated the file to read the env information.
